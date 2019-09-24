@@ -1,0 +1,102 @@
+@font-face {
+  font-family: Exo-Medium1;
+  src: url("../fonts/Exo-Regular.ttf") format("ttf"); }
+@font-face {
+  font-family: SFPro;
+  src: url("../fonts/SFProDisplay.otf") format("otf"); }
+body {
+  font-family: 'Exo-Medium1', sans-serif; }
+
+form {
+  font-family: 'SFPro', sans-serif; }
+
+.title-login {
+  font-size: 54px;
+  font-weight: 600;
+  color: #4A4A4A; }
+  @media (max-width: 576px) {
+    .title-login {
+      font-size: 40px; } }
+
+.size {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.75px;
+  color: #fff; }
+  @media (max-width: 375px) {
+    .size {
+      font-size: 14px; } }
+
+.login {
+  display: flex;
+  flex-flow: row wrap; }
+  @media (max-width: 768px) {
+    .login {
+      flex-flow: column wrap; } }
+  .login .login-background.text-center {
+    flex-basis: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0 5rem;
+    height: 100vh; }
+    @media (max-width: 768px) {
+      .login .login-background.text-center {
+        flex-basis: 100%;
+        padding: 2rem 5rem; } }
+    @media (max-width: 576px) {
+      .login .login-background.text-center {
+        padding: 2rem 2rem; } }
+    @media (max-width: 375px) {
+      .login .login-background.text-center {
+        padding: 2rem 1rem; } }
+    .login .login-background.text-center .logo {
+      object-fit: cover; }
+      .login .login-background.text-center .logo img {
+        width: 60%; }
+    .login .login-background.text-center p {
+      padding-top: 2rem; }
+  .login .login-form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex-basis: 50%;
+    padding: 0rem 6rem 0 4rem; }
+    @media (max-width: 768px) {
+      .login .login-form {
+        flex-basis: 100%;
+        padding: 2rem 4rem; } }
+    @media (max-width: 375px) {
+      .login .login-form {
+        padding: 2rem 1rem; } }
+    .login .login-form p.define {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #4A90E2;
+      margin-bottom: 2rem; }
+      @media (max-width: 576px) {
+        .login .login-form p.define {
+          font-size: 18px;
+          margin-bottom: 2rem; } }
+    .login .login-form .alert-danger {
+      width: 100%;
+      font-size: 18px;
+      color: #E83434; }
+    .login .login-form .check-login {
+      display: flex !important;
+      justify-content: space-between; }
+      .login .login-form .check-login .btn-link {
+        padding: 0; }
+    .login .login-form button.btn-login {
+      text-align: center;
+      width: 100%;
+      margin-top: 18px;
+      background-color: #005CC7; }
+
+form label {
+  color: #979797; }
+
+/*# sourceMappingURL=page.css.map */

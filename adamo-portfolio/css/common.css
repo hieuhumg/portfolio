@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Exo-Medium1;
+  src: url("../fonts/Exo-Regular.ttf") format("ttf"); }
+@font-face {
+  font-family: SFPro;
+  src: url("../fonts/SFProDisplay.otf") format("otf"); }
+body {
+  font-family: 'Exo-Medium1', sans-serif; }
+
+form {
+  font-family: 'SFPro', sans-serif; }
+
+.title-login {
+  font-size: 54px;
+  font-weight: 600;
+  color: #4A4A4A; }
+  @media (max-width: 576px) {
+    .title-login {
+      font-size: 40px; } }
+
+.size {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.75px;
+  color: #fff; }
+  @media (max-width: 375px) {
+    .size {
+      font-size: 14px; } }
+
+/*# sourceMappingURL=common.css.map */

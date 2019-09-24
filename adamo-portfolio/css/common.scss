@@ -1,0 +1,36 @@
+@font-face{
+  font-family: Exo-Medium1;
+  src:url('../fonts/Exo-Regular.ttf') format("ttf");
+}
+@font-face{
+  font-family: SFPro;
+  src:url('../fonts/SFProDisplay.otf') format("otf");
+}
+
+$break-table: 768px;
+$break-mobile: 576px;
+$break-small: 375px;
+$color-white: #fff;
+body {
+  font-family: 'Exo-Medium1', sans-serif;
+}
+form {
+  font-family: 'SFPro', sans-serif;
+}
+.title-login {
+  font-size: 54px;
+  font-weight: 600;
+  color: #4A4A4A;
+  @media (max-width: $break-mobile) {
+  font-size: 40px;
+  }
+}
+.size {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.75px;
+  color: $color-white;
+  @media (max-width: $break-small) {
+    font-size: 14px;
+  }
+}

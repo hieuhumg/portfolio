@@ -1,0 +1,84 @@
+@import "common";
+.login {
+  display: flex;
+  flex-flow: row wrap;
+  @media (max-width: $break-table) {
+    flex-flow: column wrap;
+  }
+  .login-background.text-center {
+    @media (max-width: $break-table) {
+      flex-basis: 100%;
+      padding: 2rem 5rem;
+    }
+    @media (max-width: $break-mobile) {
+      padding: 2rem 2rem;
+    }
+    @media (max-width: $break-small) {
+      padding: 2rem 1rem;
+    }
+    flex-basis: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0 5rem;
+    height: 100vh;
+    .logo{
+      object-fit: cover;
+      img {
+        width: 60%;
+      }
+    }
+    p {
+      padding-top: 2rem;
+    }
+  }
+  .login-form {
+    @media (max-width: $break-table) {
+      flex-basis: 100%;
+      padding: 2rem 4rem;
+    }
+    @media (max-width: $break-small) {
+      padding: 2rem 1rem;
+    }
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex-basis: 50%;
+    padding: 0rem 6rem 0 4rem;
+    p.define {
+      @media (max-width: $break-mobile) {
+        font-size: 18px;
+        margin-bottom: 2rem;
+      }
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #4A90E2;
+      margin-bottom: 2rem;
+
+    }
+    .alert-danger {
+      width: 100%;
+      font-size: 18px;
+      color: #E83434;;
+    }
+    .check-login {
+      display: flex !important;
+      justify-content: space-between;
+      .btn-link {
+        padding: 0;
+      }
+    }
+    button.btn-login {
+      text-align: center;
+      width: 100%;
+      margin-top: 18px;
+      background-color:  #005CC7;
+    }
+  }
+}
+form label {
+  color: #979797;
+}
